@@ -10,6 +10,8 @@ public class Person {
         this.name = name;
     }
 
+    public int tele = 12345;
+
     public int getAge() {
         return age;
     }
