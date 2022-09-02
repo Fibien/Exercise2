@@ -4,7 +4,8 @@ import java.util.stream.DoubleStream;
 public class Calculator {
 
     static double add(double... operands) {
-        return DoubleStream.of(operands).sum();
+        return DoubleStream.of(operands).
+                sum();
     }
 
     static double multiply(double... operands) {
