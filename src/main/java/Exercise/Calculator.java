@@ -3,6 +3,8 @@ import java.util.stream.DoubleStream;
 
 public class Calculator {
 
+    public int nr = 1234;
+
     static double add(double... operands) {
         return DoubleStream.of(operands).
                 sum();
