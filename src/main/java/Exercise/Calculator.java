@@ -4,6 +4,7 @@ import java.util.stream.DoubleStream;
 public class Calculator {
 
     public int nr = 12345;
+    public int annat = 45667;
     public String hej;
 
     static double add(double... operands) {
