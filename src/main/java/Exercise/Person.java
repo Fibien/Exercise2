@@ -11,7 +11,7 @@ public class Person {
         this.name = name;
     }
 
-    public int tele = 12345;
+    public int tele = 1234556774;
 
     public int getAge() {
         return age;
