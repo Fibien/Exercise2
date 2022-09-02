@@ -6,9 +6,10 @@ public class Person {
     private String name;
     private String adress;
 
-    public Person(int age, String name) {
+    public Person(int age, String name, String adress) {
         this.age = age;
         this.name = name;
+        this.adress = adress;
     }
 
     public int tele = 12345;
