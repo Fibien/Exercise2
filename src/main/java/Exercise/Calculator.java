@@ -16,4 +16,8 @@ public class Calculator {
     public int getSum(int i, int j) {
         return i + j;
     }
+    public int getProduct(int i, int j){
+        return i * j;
+    }
+
 }
