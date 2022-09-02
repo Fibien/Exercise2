@@ -3,7 +3,8 @@ import java.util.stream.DoubleStream;
 
 public class Calculator {
 
-    public int nr = 12345;
+    public int nr = 12345977;
+
 
     static double add(double... operands) {
         return DoubleStream.of(operands).
